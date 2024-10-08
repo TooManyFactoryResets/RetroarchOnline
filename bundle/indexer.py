@@ -2,7 +2,7 @@ import os, json
 
 wpaths = []
 wfiles = []
-outfile = "indexedfiles.txt"
+outfile = "indexedfiles-out.txt"
 
 if os.path.exists(outfile):
 	os.remove(outfile)
